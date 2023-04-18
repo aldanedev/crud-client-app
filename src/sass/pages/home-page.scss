@@ -1,0 +1,15 @@
+@import "../base/varaibles.scss";
+
+.home--menu--hide {
+    grid-template-columns:  1fr;
+}
+
+.home--menu-open {
+    grid-template-columns: 270px 1fr;
+}
+
+.home {
+    display: grid; 
+    height: 100vh;    
+    overflow: auto;   
+}

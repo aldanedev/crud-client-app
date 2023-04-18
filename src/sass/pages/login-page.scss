@@ -1,0 +1,86 @@
+@import '../base/varaibles.scss';
+
+.login-page--cover {
+    background-image: linear-gradient(to right, $colorPrimary, $colorSecondary);
+    display: grid;
+    width: 100vw;
+    height: 100vh;    
+    place-items: center;
+}
+
+.login-page--form {
+    background-color: $colorWhite;
+    max-width: 475px;    
+    max-height: 550px;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
+    .login-page--form__header {
+        display: flex;
+        flex-direction: row;    
+        justify-content: center;
+        align-items: center;
+        
+        .login-page--form--header__line_vertical {            
+            border-left: 5px solid $colorPrimary;
+            height: 39px;
+            margin-right: 10px;
+        }        
+        .login-page--form--header__title {
+            font-size: 32px;
+            text-align: center;
+            text-transform: uppercase;      
+        }    
+    }
+
+    .login-page--form__subtitle {
+        display: flex;
+        flex-direction: column;
+        .login-page--form--subtitle__title {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 22px;
+            text-align: center;
+            line-height: 27px;
+            font-style: normal;
+            margin-bottom: 0px;
+        }
+        .login-page--form--subtitle__description {
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 17px;
+            font-style: normal;
+            color: #6C6C6C;
+        }
+    }
+    .login-page--form__inputs {        
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 20px;
+        
+       
+    }
+
+    .login-page--form__footer {
+        margin-top: 30px;
+        text-align: center;
+        p {            
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #6C6C6C;
+
+            a {                
+                color: $colorPrimary;
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
+

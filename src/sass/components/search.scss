@@ -1,0 +1,13 @@
+.search {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;        
+    align-items: center;
+    padding: 0px 20px;
+    button {
+        background-color: transparent;
+        border: none;        
+        font-size: 15px;
+    }
+}
+

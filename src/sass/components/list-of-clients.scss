@@ -1,0 +1,46 @@
+@import "../base/varaibles.scss";
+
+.list-client {
+    padding: 20px;    
+    background-color: #E5E5E5;    
+    .header {
+        display: flex;        
+        flex-direction: row;
+        justify-content: space-between;        
+        .header--title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        margin-right: 20px;
+    }
+
+
+    .item {
+        margin: 5px 0px;
+        padding: 10px;
+        background-color: $colorWhite;
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 8px;
+        span {
+            width: 200px;
+        }
+        button {
+            color: $colorPrimary;
+            background-color: transparent;
+            border: none;
+            font-size: 12px;
+        }
+    }
+  
+}
